@@ -48,7 +48,7 @@ dependencies {
 }
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        release(org.gradle.api.publish.maven.MavenPublication){
             groupId = "com.github.sairam427"
             artifactId = "simplelibrary"
             version = "0.0.3"
