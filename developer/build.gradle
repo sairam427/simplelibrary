@@ -52,7 +52,7 @@ publishing {
         release(org.gradle.api.publish.maven.MavenPublication){
             groupId = "com.github.sairam427"
             artifactId = "simplelibrary"
-            version = "1.0.3"
+            version = "1.0.5"
 
             afterEvaluate {
                 from(components["release"])
