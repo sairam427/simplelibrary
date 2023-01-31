@@ -7,14 +7,9 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".LibraryActivity">
-    <TextView
+    <WebView
+        android:id="@+id/webView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hii Prefr"
-        android:layout_gravity="center"
-        android:layout_marginTop="280dp"
-        android:layout_marginLeft="100dp"
-        >
-    </TextView>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
