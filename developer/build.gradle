@@ -52,7 +52,7 @@ publishing {
         release(MavenPublication){
             groupId = "com.github.sairam427"
             artifactId = "simplelibrary"
-            version = "1.1.1"
+            version = "1.1.3"
 
             afterEvaluate {
                 from(components["release"])
