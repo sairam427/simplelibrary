@@ -14,7 +14,7 @@ class LibraryActivity : AppCompatActivity() {
         var webview=findViewById<WebView>(R.id.webView)
 
         webview.webViewClient = WebViewClient()
-        webview.loadUrl("https://www.google.com")
+        webview.loadUrl("https://test-cvloan.prefr.com/prefr/GetStarted?startPage=base")
         webview.settings.javaScriptEnabled = true
         webview.settings.setSupportZoom(true)
     }
